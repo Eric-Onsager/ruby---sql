@@ -35,3 +35,6 @@ Salesperson.destroy_all
 # Salespeople: 2
 # Ben Block
 # Brian Eng
+puts "There are #{activity.all.count} activities"
+new_activity = activity.new
+puts new_activity
